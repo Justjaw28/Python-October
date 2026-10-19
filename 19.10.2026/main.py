@@ -17,3 +17,9 @@ elif cislo3 > max:
     max = cislo3
 
 print ("Číslo" , min , "je minimum \na číslo" , max , "je maximum")
+if max and min != cislo1:
+    print ("Od maxima po minimum:" , max, cislo1, min)
+elif max and min != cislo2:
+    print ("Od maxima po minimum:" , max, cislo2, min)
+else:
+    print ("Od maxima po minimum:" , max, cislo3, min)
