@@ -3,6 +3,7 @@ cislo1 = int(input())
 cislo2 = int(input())
 cislo3 = int(input())
 print ("Vybrali jste čísla:", cislo1, cislo2, cislo3)
+p = 0
 
 min = cislo1
 max = cislo1
@@ -17,9 +18,3 @@ elif cislo3 > max:
     max = cislo3
 
 print ("Číslo" , min , "je minimum \na číslo" , max , "je maximum")
-if max and min != cislo1:
-    print ("Od maxima po minimum:" , max, cislo1, min)
-elif max and min != cislo2:
-    print ("Od maxima po minimum:" , max, cislo2, min)
-else:
-    print ("Od maxima po minimum:" , max, cislo3, min)
